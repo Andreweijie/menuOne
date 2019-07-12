@@ -1,0 +1,256 @@
+@font-face {
+  font-family: "Cloister Black";
+  src: url("http://db.onlinewebfonts.com/t/6ca68131925d7aa08c97e57d9e8b2ed7.eot");
+  src: url("http://db.onlinewebfonts.com/t/6ca68131925d7aa08c97e57d9e8b2ed7.eot?#iefix")
+      format("embedded-opentype"),
+    url("http://db.onlinewebfonts.com/t/6ca68131925d7aa08c97e57d9e8b2ed7.woff2")
+      format("woff2"),
+    url("http://db.onlinewebfonts.com/t/6ca68131925d7aa08c97e57d9e8b2ed7.woff")
+      format("woff"),
+    url("http://db.onlinewebfonts.com/t/6ca68131925d7aa08c97e57d9e8b2ed7.ttf")
+      format("truetype"),
+    url("http://db.onlinewebfonts.com/t/6ca68131925d7aa08c97e57d9e8b2ed7.svg#Cloister Black")
+      format("svg");
+}
+@import url("//db.onlinewebfonts.com/c/661fe2133bd923041dde83ab2cfe015c?family=Corona");
+@font-face {
+  font-family: "Old English Text MT";
+  src: url("//db.onlinewebfonts.com/t/527ea5851ca62a9a758a44dc39437eae.eot");
+  src: url("//db.onlinewebfonts.com/t/527ea5851ca62a9a758a44dc39437eae.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/527ea5851ca62a9a758a44dc39437eae.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/527ea5851ca62a9a758a44dc39437eae.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/527ea5851ca62a9a758a44dc39437eae.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/527ea5851ca62a9a758a44dc39437eae.svg#Old English Text MT")
+      format("svg");
+}
+
+.test span {
+  font-family: "Corona";
+  font-size: 1.5em;
+}
+
+.test1 .MuiListItemText-primary,
+.test1 .MuiListItemText-secondary {
+  font-family: "Corona";
+}
+#root {
+  height: 100vh;
+}
+.App {
+  text-align: center;
+  background-color: rgba(239, 198, 141, 1) !important;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+html {
+  background-color: rgba(239, 198, 141, 1) !important;
+}
+
+body {
+  background-color: rgba(239, 198, 141, 1) !important;
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.pricing {
+  font-weight: 400;
+  font-size: 1em;
+  font-family: "Corona";
+}
+p {
+  max-width: 90vw !important;
+}
+img {
+  width: 95vw;
+  border-radius: 0.5em;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+  padding-top: 3em;
+  padding-bottom: 2em;
+  width: 8em;
+  box-shadow: none;
+  transform: scale(1.5);
+}
+
+.MuiListSubheader-sticky {
+  position: relative !important;
+}
+
+hr {
+  border: 1px solid black;
+  width: 90%;
+  margin-block-start: 0.2em !important;
+  margin-block-end: 0.2em !important;
+}
+
+.MuiAppBar-colorDefault,
+.MuiTypography-root {
+  background-color: rgba(239, 198, 141, 1) !important;
+}
+
+.Mui-selected {
+  color: black !important;
+}
+
+.PrivateTabIndicator-colorPrimary-61,
+.PrivateTabIndicator-colorPrimary-86 {
+  background-color: black !important;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-family: Corona;
+  font-size: 24px;
+  margin: 0 auto;
+}
+
+#nested-list-subheader h3 {
+  margin-block-start: 0px !important;
+  margin-block-end: 0px !important;
+  padding: none;
+  font-family: "Corona";
+}
+
+#name {
+  font-family: "Old English Text MT";
+  font-size: 2.3em;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+span.MuiTab-wrapper {
+  font-family: "Corona";
+}
+
+.MuiPaper-elevation4 {
+  box-shadow: none !important;
+}
+
+#edition {
+  font-size: 20px;
+  font-family: "Corona";
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+#header-menu {
+  font-family: "Corona";
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+#bottom {
+  margin-block-start: 10px !important;
+}
+#top {
+  margin-block-end: 10px !important;
+}
+
+#bottom2 {
+  margin-block-end: 16px !important;
+}
+#bottom3 {
+  margin-block-end: 20px !important;
+}
+#welcome {
+  font-size: 28px;
+  font-family: "Corona";
+}
+
+#menu-divider {
+  width: 65%;
+  margin-block-start: -0.3em !important;
+  margin-block-end: 1em !important;
+  border-color: black;
+}
+
+#aaa {
+  padding-bottom: 12px;
+}
+
+.item {
+  margin: 0;
+  font-family: "Corona";
+  font-size: 1rem;
+  margin-right: 0.5em;
+  word-wrap: break-word;
+}
+.description {
+  font-size: 0.875rem;
+  font-family: "Corona";
+  color: rgba(0, 0, 0, 0.54);
+}
+
+#menubox {
+  padding-top: 8px !important;
+  padding-bottom: 8px !important;
+  width: 100%;
+}
+#itembox {
+  display: flex;
+  justify-content: space-between;
+}
+
+#nested-list-subheader h4 {
+  font-family: "Corona";
+  margin-block-start: 0 !important;
+  margin-block-end: 0 !important;
+  line-height: 24px;
+}
+#nested-list-subheader h3 {
+  font-family: "Corona";
+  margin-block-start: 0 !important;
+  margin-block-end: 0 !important;
+  line-height: 24px;
+}
+
+.MuiList-subheader {
+  background-color: rgba(239, 198, 141, 1) !important;
+}
+
+.MuiTabs-indicator {
+  background-color: black !important;
+}
+
+#back-home {
+  background-color: rgba(239, 198, 141, 1) !important;
+  margin: 0;
+  font-family: "Corona";
+}
+
+.MuiListSubheader-root {
+  color: black !important;
+}
+
+h4 {
+  font-family: "Corona";
+  font-weight: normal !important;
+}
+
+@media only screen and (max-width: 500px) {
+  #name {
+    font-size: 2em;
+  }
+  #welcome {
+    font-size: 22px;
+  }
+  #edition {
+    font-size: 18px;
+  }
+}
+
+header {
+  padding-block-end: 1em;
+}
