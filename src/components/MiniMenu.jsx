@@ -19,7 +19,14 @@ export default class MiniMenu extends Component {
             >
               <hr />
               {e.items.map(a => {
-                return <MiniItem name={a.name} />;
+                return (
+                  <MiniItem
+                    name={a.name}
+                    desc={a.desc}
+                    desc2={a.desc2}
+                    price={a.price}
+                  />
+                );
               })}
             </List>
           );

@@ -20,7 +20,7 @@ export default class Category extends Component {
   render() {
     return (
       <div>
-        <ListItem button onClick={this.handleClick}>
+        <ListItem button onClick={this.props.setOpen}>
           <ListItemText className="test" primary={this.props.title} />
           {this.state.open ? <ExpandLess /> : <ExpandMore />}
         </ListItem>
@@ -28,11 +28,12 @@ export default class Category extends Component {
           return (
             <Collapse
               key={e.name}
-              in={this.state.open}
+              in={this.props.index == this.props.current}
               timeout="auto"
               unmountOnExit
             >
               <MenuItem
+                fishes={e.fishes}
                 name={e.name}
                 price={e.price}
                 description={e.description}

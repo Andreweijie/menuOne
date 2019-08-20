@@ -13,11 +13,11 @@ class App extends Component {
     data: [
       {
         "daily-issue": {
-          Sharing: [
+          Starters: [
             {
               name: "WILD MUSHROOM SOUP",
               description:
-                "shitake, button mushrooms, portobello,porcini, cream, thyme, truffle oil, chives, artisanal toast",
+                "shitake, button mushrooms, portobello, porcini, cream, thyme, truffle oil, chives, artisanal toast",
               price: 15,
               image: "/images/wild-mushroom-soup.jpg"
             },
@@ -25,7 +25,7 @@ class App extends Component {
               name: "POT OF MUSSELS & CLAMS",
               description:
                 "boston mussels, brown clams, tomatoes, fennel, leeks, cream, white wine, artisanal toast",
-              price: 23,
+              price: 25,
               image: "/images/pot-of-mussels-&-clams.JPG"
             },
             {
@@ -84,18 +84,18 @@ class App extends Component {
               name: "SWEET POTATO FRIES",
               description:
                 "garlic, house seasoning, paprika, sriracha mayonnaise, parmesan shavings",
-              price: 16,
+              price: 15,
               image: "/images/sweet-potato-fries.JPG"
             },
             {
               name: "SPAM FRIES ",
               description:
                 "straight-cut luncheon meat, sriracha mayonnaise, chili sauce",
-              price: 16,
+              price: 14,
               image: "/images/spam-fries.JPG"
             }
           ],
-          Mains: [
+          Meat: [
             {
               name: "ALL DAY BREAKFAST",
               description:
@@ -103,19 +103,7 @@ class App extends Component {
               price: 25,
               image: "/images/all-day-breakfast.JPG"
             },
-            {
-              name: "FISH & CHIPS",
-              description:
-                "beer battered atlantic cod, thick-cut fries, tomato, nori powder, mesclun salad, wasabi soy dressing, tartar sauce",
-              price: 28,
-              image: "/images/fish-n-chips.JPG"
-            },
-            {
-              name: "SMOKED SALMON ROSTI SAUSAGE",
-              description:
-                "hand-cut potato rosti, chicken cheese sausage, norwegian smoked salmon, mesclun salad, sour cream",
-              price: 24
-            },
+            /**/
             {
               name: "GRILLED CHICKEN",
               description:
@@ -147,35 +135,49 @@ class App extends Component {
             {
               name: "PORTOBELLO CHEESE BURGER",
               description:
-                "homemade wagyu beef patty (180g), grilled portobello, bacon, onions, homemade ketchup, melted cheese, gherkin, thick-cut fries, mesclun salad + fried egg $3",
+                "homemade wagyu beef patty (180g), grilled portobello, bacon, onions, homemade ketchup, melted cheese, gherkin, thick-cut fries, mesclun salad",
+              description2: "+ fried egg $3",
               price: 26,
               image: "/images/portobello-burger.JPG"
+            },
+            {
+              name: "SMOKED SALMON ROSTI SAUSAGE",
+              description:
+                "hand-cut potato rosti, chicken cheese sausage, norwegian smoked salmon, mesclun salad, sour cream",
+              price: 24
             }
           ],
           Seafood: [
-            { name: "RED GROUPER", description: "", price: "15/100G" },
-            { name: "BLACK GROUPER", description: "", price: "12/100G" },
-            { name: "RED SNAPPER", description: "", price: "12/100G" },
             {
-              name: "CHINESE POMFRET",
-              description: "",
-              price: "15/100G"
+              name: "WILD CATCH FISH",
+              description:
+                "served with a bowl of jasmine rice or porridge (allow 20 min cooking time)",
+              price: "48",
+              fishes: "Grouper | Pomfret | Snapper",
+              image: "/images/hk-style-grouper.jpg"
             },
             {
               name: "COOKING STYLE",
               description:
-                "hong kong style with coriander - teochew steamed with pickled vegetables, tomato, shitake mushroom, tofu & plum - sour spicy steamed with pickled vegetables, lemongrass, tomato & plum - sichuan boiled fish with bean sprouts & tofu - ikan bakar with TCS signature sambal, lemon & salad Additional bee hoon or kway teow on fish +8"
+                "hong kong style with coriander - teochew steamed with pickled vegetables, tomato, shitake mushroom, tofu & plum - sour spicy steamed with pickled vegetables, lemongrass, tomato & plum - sichuan boiled fish with bean sprouts & tofu - ikan bakar (grilled) with TCS signature sambal, lemon & salad Additional bee hoon or kway teow on fish +8",
+              image: "/images/ikan-bakar-snapper.jpg"
             },
             {
               name: "GRILLED OCTOPUS",
               description:
-                "char grilled octopus, rojak salad, shrimp paste, peanuts, mesclun salad",
+                "char grilled octopus, rojak salad, fried tau pok, shrimp paste, peanuts, mesclun salad",
               price: 31
-            },
+            } /*
             {
               name: "DOZEN STEAMED PRAWNS",
               description: "fresh prawns, rose wine, dashi steamed egg ",
               price: 31
+            },*/,
+            {
+              name: "MALA SEAFOOD POT",
+              description:
+                "prawn, clam, mussel, lotus root, wood ear, broccolini, french bean, sichuan spices, jasmine rice",
+              price: 29
             },
             {
               name: "SAMBAL SQUID",
@@ -187,6 +189,13 @@ class App extends Component {
               name: "DRUNKEN LALA CLAMS",
               description: "chinese wine, ginger, mirin, coriander",
               price: 23
+            },
+            {
+              name: "FISH & CHIPS",
+              description:
+                "beer battered atlantic cod, thick-cut fries, tomato, nori powder, mesclun salad, wasabi soy dressing, tartar sauce",
+              price: 28,
+              image: "/images/fish-n-chips.JPG"
             }
           ],
           Pizzas: [
@@ -238,15 +247,34 @@ class App extends Component {
               image: "/images/xo-prawn-aglio-olio.JPG"
             },
             {
-              name: "TCS CRAYFISH & PRAWN LAKSA",
-              description:
-                "crayfish, prawns, tau pok, fish cake, bean sprouts, hard boiled egg, laksa leaves, thick rice noodle, yellow noodle",
+              name: "LINGUINE VONGOLE",
+              description: "clam, tomato, fennel, leek",
+              description2: "choice of sauce: white wine or cream",
               price: 25
             },
             {
-              name: "BEEF RENDANG",
+              name: "VEGETARIAN AGLIO OLIO",
               description:
-                "slow cooked beef, rendang spices, papadum, achar, jasmine rice",
+                "broccolini, asparagus, garlic confit, edamame, bird’s eye chili",
+              price: 25
+            },
+            {
+              name: "TCS CRAYFISH & PRAWN LAKSA",
+              description:
+                "crayfish, prawns, hard shell scallop, tau pok, fish cake, bean sprouts, hard boiled egg, laksa leaves, thick rice noodle, yellow noodle",
+              price: 25
+            },
+            {
+              name: "TCS HOKKIEN MEE",
+              description:
+                "prawns, squid, brown clam, hard shell scallop, bean sprouts, chinese chives, homemade chilli, calamansi, pork & prawn stock, yellow noodle, rice noodle",
+              price: 24,
+              image: "/images/hokkien-mee.JPG"
+            },
+            {
+              name: "OYSTER CHAR KUAY TEOW",
+              description:
+                "korean oysters, flat noodle, fish cake, asian greens, egg, flat rice noodle",
               price: 23
             },
             {
@@ -262,6 +290,12 @@ class App extends Component {
                 "beef rendang, crispy chicken, otak-otak, sambal lady's finger, sunny side-up egg, achar, ikan bilis, coconut rice, TCS sambal chili",
               price: 26,
               image: "/images/nasi-campur.JPG"
+            },
+            {
+              name: "BEEF RENDANG",
+              description:
+                "slow cooked beef, rendang spices, papadum, achar, jasmine rice",
+              price: 23
             }
           ],
           Desserts: [
@@ -273,8 +307,9 @@ class App extends Component {
             },
             {
               name: "ICE CREAM",
-              description:
-                "served in a wafer bowl french vanilla | triple dark chocolate | D24 durian | peanut butter & jelly | green tea | korean yuzu sorbet",
+              description: "served in a wafer bowl",
+              description2:
+                "french vanilla | triple dark chocolate | D24 durian | peanut butter & jelly | green tea | korean yuzu sorbet",
               price: 7
             },
             {
@@ -286,66 +321,66 @@ class App extends Component {
           "Add-Ons": [
             {
               name: "SAMBAL KANGKONG",
-              price: 23
+              price: 13
             },
             {
               name: "BUTTER GRILLED CORN",
-              price: 23
+              price: 8
             },
             {
               name: "SAUTEED MUSHROOMS",
-              price: 23
+              price: 12
             },
             {
               name: "TRUFFLE MASHED POTATO",
-              price: 23
+              price: 8
             },
             {
               name: "MIXED GREEN SALAD W/ FETA AND BALSAMIC GLAZE",
-              price: 23
+              price: 9
             },
             {
               name: "CHARRED BROCOLINI W/ CRUMBLED FETA",
-              price: 23
+              price: 15
             },
             {
               name: "CHARRED ASPARAGUS",
-              price: 23
+              price: 15
             },
             {
               name: "JASMINE RICE",
-              price: 23
+              price: 4
             },
             {
               name: "COCONUT RICE",
-              price: 23
+              price: 5
             }
           ],
           Kids: [
             {
               name: "TATER TOTS AND NUGGETS",
-              price: 23,
+              price: 12,
               image: "/images/tator-tots.JPG"
             },
             {
               name: "JUNIOR FISH AND CHIPS",
               description:
                 "fish fingers, straight-cut fries, tartar sauce, lemon cheek",
-              price: 23,
+              price: 14,
               image: "/images/kids-fish-n-chips.JPG"
             },
             {
               name: "SAUSAGE AND SPAGHETTI",
               description:
                 "chicken cheese sausage, sunny-side up, tomato sauce, parmesan shavings",
-              price: 23,
+              price: 15,
               image: "/images/kids-spaghetti.JPG"
             },
             {
               name: "CHEESE BURGER",
               description:
                 "homemade wagyu beef patty (120g), melted cheese, tomato, romaine lettuce, ketchup, straight-cut fries",
-              price: 23,
+              price: 16,
               image: "/images/kids-cheeseburger.JPG"
             }
           ]
@@ -371,7 +406,7 @@ class App extends Component {
             {
               name: "TCS CRAB & EGGS",
               description:
-                "norwegian smoked salmon, crab meat,poached eggs, avocado, ikura, dill, yuzu hollandaise, micro cress, croissant",
+                "norwegian smoked salmon, crab meat, poached eggs, avocado, ikura, dill, yuzu hollandaise, micro cress, croissant",
               price: 25
             },
             {
@@ -412,7 +447,7 @@ class App extends Component {
             {
               name: "FISH & CHIPS",
               description:
-                "wagyu beef (180g), grilled bacon, melted cheese, sunny-side up egg, gherkin, ketchup, romaine lettuce, thick-cut fries, mesclun salad",
+                "beer battered atlantic cod, thick-cut fries, tomato, nori powder, mesclun salad, wasabi soy dressing, tartar sauce",
               price: 28,
               image: "/images/fish-n-chips.JPG"
             },
@@ -468,7 +503,7 @@ class App extends Component {
             {
               name: "WILD MUSHROOM SOUP",
               description:
-                "shitake, button mushrooms, portobello,porcini, cream, thyme, truffle oil, chives, artisanal toast",
+                "shitake, button mushrooms, portobello, porcini, cream, thyme, truffle oil, chives, artisanal toast",
               price: 15,
               image: "/images/wild-mushroom-soup.jpg"
             },
@@ -509,14 +544,14 @@ class App extends Component {
               name: "SWEET POTATO FRIES",
               description:
                 "garlic, house seasoning, paprika, sriracha mayonnaise, parmesan shavings",
-              price: 16,
+              price: 15,
               image: "/images/sweet-potato-fries.JPG"
             },
             {
               name: "SPAM FRIES ",
               description:
                 "straight-cut luncheon meat, sriracha mayonnaise, chili sauce",
-              price: 16,
+              price: 14,
               image: "/images/spam-fries.JPG"
             }
           ],
@@ -575,8 +610,9 @@ class App extends Component {
             },
             {
               name: "ICE CREAM",
-              description:
-                "served in a wafer bowl french vanilla | triple dark chocolate | D24 durian | peanut butter & jelly | green tea | korean yuzu sorbet",
+              description: "served in a wafer bowl",
+              description2:
+                "french vanilla | triple dark chocolate | D24 durian | peanut butter & jelly | green tea | korean yuzu sorbet",
               price: 7
             },
             {
@@ -588,28 +624,28 @@ class App extends Component {
           Kids: [
             {
               name: "TATER TOTS AND NUGGETS",
-              price: 23,
+              price: 12,
               image: "/images/tator-tots.JPG"
             },
             {
               name: "JUNIOR FISH AND CHIPS",
               description:
                 "fish fingers, straight-cut fries, tartar sauce, lemon cheek",
-              price: 23,
+              price: 14,
               image: "/images/kids-fish-n-chips.JPG"
             },
             {
               name: "SAUSAGE AND SPAGHETTI",
               description:
                 "chicken cheese sausage, sunny-side up, tomato sauce, parmesan shavings",
-              price: 23,
+              price: 15,
               image: "/images/kids-spaghetti.JPG"
             },
             {
               name: "CHEESE BURGER",
               description:
                 "homemade wagyu beef patty (120g), melted cheese, tomato, romaine lettuce, ketchup, straight-cut fries",
-              price: 23,
+              price: 16,
               image: "/images/kids-cheeseburger.JPG"
             }
           ]

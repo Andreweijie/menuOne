@@ -44,7 +44,7 @@ export default class Specials extends Component {
           {" "}
           &lt; Specials
         </h3>
-        <h4 style={{ fontFamily: "Corona" }}>
+        <h4 style={{ fontFamily: "Corona", fontSize: 14 }}>
           Limited availability, please check with us!
         </h4>
         <hr />

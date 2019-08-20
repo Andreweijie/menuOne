@@ -12,27 +12,45 @@ export default class Menus extends Component {
 
         <List>
           <ListItem button>
-            <Link to="/menu/daily-issue">DAILY ISSUE &gt;</Link>
+            <Link to="/menu/daily-issue">DAILY ISSUE </Link>
+            <span className="arrows" style={{ float: "right", fontSize: 30 }}>
+              &gt;
+            </span>
           </ListItem>
           <hr id="menu-divider" />
           <ListItem button>
-            <Link to="/specials">SPECIALS &gt;</Link>
+            <Link to="/high-tea">HIGH TEA </Link>
+            <span className="arrows" style={{ float: "right", fontSize: 30 }}>
+              &gt;
+            </span>
           </ListItem>
           <hr id="menu-divider" />
           <ListItem button>
-            <Link to="/high-tea">HIGH TEA &gt;</Link>
+            <Link to="/menu/weekend-issue">WEEKEND ISSUE </Link>
+            <span className="arrows" style={{ float: "right", fontSize: 30 }}>
+              &gt;
+            </span>
           </ListItem>
           <hr id="menu-divider" />
           <ListItem button>
-            <Link to="/menu/weekend-issue">WEEKEND ISSUE &gt;</Link>
+            <Link to="/breakfast">BREAKFAST </Link>
+            <span className="arrows" style={{ float: "right", fontSize: 30 }}>
+              &gt;
+            </span>
           </ListItem>
           <hr id="menu-divider" />
           <ListItem button>
-            <Link to="/breakfast">BREAKFAST &gt;</Link>
+            <Link to="/liquid">LIQUID ISSUE </Link>
+            <span className="arrows" style={{ float: "right", fontSize: 30 }}>
+              &gt;
+            </span>
           </ListItem>
           <hr id="menu-divider" />
           <ListItem button>
-            <Link to="/liquid">LIQUID ISSUE &gt;</Link>
+            <Link to="/specials">SPECIALS </Link>
+            <span className="arrows" style={{ float: "right", fontSize: 30 }}>
+              &gt;
+            </span>
           </ListItem>
           <hr id="menu-divider" />
         </List>

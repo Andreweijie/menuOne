@@ -12,13 +12,15 @@ export default class Breakfast extends Component {
       {
         name: "​SAUSAGE & EGGS",
         description:
-          "Choice of chicken cheese sausage/smoked salmon Sunny side-up eggs, mesclun salad, sour cream, sour dough, jam",
+          "sunny side-up eggs, mesclun salad, sour cream, sour dough, jam",
+        description2: "choice of chicken cheese sausage/smoked salmon",
         image: "/images/sausage-eggs.jpg"
       },
       {
         name: "SMASHED AVOCADO & EGGS",
         description:
-          "SChoice of scrambled / sunny side-up Avocado, norwegian smoked salmon, artisanal toast, tomato salsa",
+          "avocado, norwegian smoked salmon, artisanal toast, tomato salsa",
+        description2: "choice of scrambled / sunny side-up",
         image: "/images/smashed-advocado-and-eggs.jpg"
       },
       {
@@ -37,19 +39,21 @@ export default class Breakfast extends Component {
     return (
       <div>
         <h3
-          style={{ fontFamily: "Corona" }}
+          style={{ fontFamily: "Corona", marginBottom: 4 }}
           onClick={this.props.history.goBack}
         >
           {" "}
           &lt; Breakfast
         </h3>
-        <h4>Available on weekends and PH from 8:30am to 10:30am</h4>
+        <h4 className="breakkie">Available on weekends and PH from</h4>
+        <h4 className="breakkie">8:30am to 10:30am</h4>
         <hr />
         {this.state.Breakfast.map(e => {
           return (
             <MenuItem
               name={e.name}
               description={e.description}
+              description2={e.description2}
               image={e.image}
             />
           );

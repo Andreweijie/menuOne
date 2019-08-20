@@ -16,7 +16,13 @@ export default class MiniItem extends Component {
             <div id="menubox">
               <div id="itembox">
                 <p className="item">{this.props.name}</p>
+                <span>{this.props.price}</span>
               </div>
+
+              <p className="desc">{this.props.desc}</p>
+              {this.props.desc2 ? (
+                <p className="desc">{this.props.desc2}</p>
+              ) : null}
             </div>
           </ListItem>
         </List>
