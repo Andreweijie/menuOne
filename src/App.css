@@ -199,17 +199,25 @@ span.MuiTab-wrapper {
   font-family: "Corona";
 }
 
+.arrow {
+  display: flex;
+  justify-content: center;
+}
+
 .item {
   margin: 0;
   font-family: "Corona";
-  font-size: 1rem;
+  font-size: 1.25rem;
   margin-right: 0.5em;
   word-wrap: break-word;
 }
 .description {
-  font-size: 0.875rem;
+  font-size: 1.1rem;
   font-family: "Corona";
-  color: rgba(0, 0, 0, 0.54);
+  color: rgba(0, 0, 0, 0.85);
+  text-align: left;
+  padding: 16px;
+  margin: 0;
 }
 .breakkie {
   margin: 8px !important;

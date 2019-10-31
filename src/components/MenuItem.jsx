@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import VisibilitySensor from "react-visibility-sensor";
+import { Icon } from "flwww";
 import {
   List,
   ListItem,
@@ -12,7 +12,8 @@ export default class MenuItem extends Component {
   constructor() {
     super();
     this.state = {
-      open: false
+      open: false,
+      arrow: "chevronDown"
     };
   }
 
@@ -23,7 +24,8 @@ export default class MenuItem extends Component {
       });
     }, 500);*/
     this.setState({
-      open: !this.state.open
+      open: !this.state.open,
+      arrow: this.state.arrow == "chevronDown" ? "chevronUp" : "chevronDown"
     });
   };
   onChange = isVisible => {
@@ -47,14 +49,19 @@ export default class MenuItem extends Component {
                 <p className="item">{this.props.price}</p>
               </div>
 
-              <span className="description">{this.props.description}</span>
-              <br />
-              <span className="description">{this.props.description2}</span>
+              <div className="arrow">
+                <Icon type={this.state.arrow} className="arrow" />
+              </div>
+
               <span className="fishes">{this.props.fishes}</span>
             </div>
           </ListItem>
-
-          <MenuPic open={this.state.open} image={this.props.image} />
+          <MenuPic
+            open={this.state.open}
+            image={this.props.image}
+            desc={this.props.description}
+            desc2={this.props.description2}
+          />
           <hr />
         </List>
       </div>

@@ -8,6 +8,10 @@ export default class MenuPic extends Component {
       <Collapse in={this.props.open} timeout="auto" unmountOnExit={false}>
         <LazyLoad offset={100}>
           <img src={this.props.image} />
+          <p className="description">{this.props.desc}</p>
+          {this.props.desc2 ? (
+            <p className="description">{this.props.desc2}</p>
+          ) : null}
         </LazyLoad>
       </Collapse>
     );

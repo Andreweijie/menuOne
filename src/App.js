@@ -150,17 +150,12 @@ class App extends Component {
           Seafood: [
             {
               name: "WILD CATCH FISH",
-              description:
-                "served with a bowl of jasmine rice or porridge (allow 20 min cooking time)",
+              description: "COOKING STYLE: ",
+              description2:
+                "hong kong style with coriander - teochew steamed with pickled vegetables, tomato, shitake mushroom, tofu & plum - sour spicy steamed with pickled vegetables, lemongrass, tomato & plum - sichuan boiled fish with bean sprouts & tofu - ikan bakar (grilled) with TCS signature sambal, lemon & salad. served with a bowl of jasmine rice or porridge (allow 20 min cooking time) Additional bee hoon or kway teow on fish +8",
               price: "48",
               fishes: "Grouper | Pomfret | Snapper",
               image: "/images/hk-style-grouper.jpg"
-            },
-            {
-              name: "COOKING STYLE",
-              description:
-                "hong kong style with coriander - teochew steamed with pickled vegetables, tomato, shitake mushroom, tofu & plum - sour spicy steamed with pickled vegetables, lemongrass, tomato & plum - sichuan boiled fish with bean sprouts & tofu - ikan bakar (grilled) with TCS signature sambal, lemon & salad Additional bee hoon or kway teow on fish +8",
-              image: "/images/ikan-bakar-snapper.jpg"
             },
             {
               name: "GRILLED OCTOPUS",
