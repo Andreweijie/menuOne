@@ -5,7 +5,7 @@ import MenuItem from "./MenuItem";
 export default class Specials extends Component {
   state = {
     data: [
-      {
+      /*{
         name: "CURED BEETROOT SALMON",
         price: 21,
         description: "White grapes, lemon gel, dill cream",
@@ -31,7 +31,7 @@ export default class Specials extends Component {
         description:
           "220g tenderloin, spring vegetables, foie gras mousse, cherry griotte sauce, veal jus",
         image: "/images/angus-tenderloin.JPG"
-      }
+      }*/
     ]
   };
   render() {

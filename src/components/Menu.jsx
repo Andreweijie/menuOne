@@ -48,7 +48,7 @@ class Menu extends Component {
             return (
               <Category
                 setOpen={() => {
-                  if (this.state.current == index) {
+                  if (this.state.current === index) {
                     this.setState({ current: undefined });
                   } else {
                     this.setState({ current: index });
