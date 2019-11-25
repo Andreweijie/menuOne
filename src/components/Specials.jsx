@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { withRouter } from "react-router-dom";
 import MenuItem from "./MenuItem";
 
 export default class Specials extends Component {
@@ -32,6 +31,25 @@ export default class Specials extends Component {
           "220g tenderloin, spring vegetables, foie gras mousse, cherry griotte sauce, veal jus",
         image: "/images/angus-tenderloin.JPG"
       }*/
+      {
+        name: "GIN - BOMBAY SAPPHIRE PROMO",
+        price: 9,
+        description: "Per glass",
+        image: "/images/bombay-sapphire.jpg"
+      },
+      {
+        name: "BEER - DOUBLE CHEERS KRONENBOURG",
+        price: 22,
+        description: "Per 2 pints",
+        image: "/images/double-cheers.jpg"
+      },
+      {
+        name: "RED WINE",
+        price: "",
+        description:
+          "Approach any of our friendly staff to find out about our red wine deals!",
+        image: "/images/red-wine.jpg"
+      }
     ]
   };
   render() {
@@ -45,7 +63,9 @@ export default class Specials extends Component {
           &lt; Specials
         </h3>
         <h4 style={{ fontFamily: "Corona", fontSize: 14 }}>
-          Limited availability, please check with us!
+          Limited availability, please check with us! <br></br>
+          Approach any of our friendly staff to find out about our red wine
+          deals!
         </h4>
         <hr />
         {this.state.data.map(e => {

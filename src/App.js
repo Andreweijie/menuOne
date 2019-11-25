@@ -646,17 +646,37 @@ class App extends Component {
           ]
         }
       }
+    ],
+    month: new Date().getMonth(),
+    months: [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
     ]
   };
   render() {
     return (
       <div className="App">
         <div>
-          <img className="logo" src="https://i.imgur.com/wWxOWWa.png" />
+          <img
+            className="logo"
+            src="https://i.imgur.com/wWxOWWa.png"
+            alt="test"
+          />
           <hr />
           <hr id="top" />
           <span id="edition">
-            Singapore Edition | Menu&nbsp; - &nbsp; July 2019
+            Singapore Edition | Menu&nbsp; - &nbsp;
+            {this.state.months[this.state.month]} 2019
           </span>
           <hr id="bottom" />
           <hr id="bottom2" />
