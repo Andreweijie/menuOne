@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { List, ListSubheader } from "@material-ui/core";
-import MiniItem from "./MiniItem";
+import MenuItem from "./MenuItem";
 
 export default class MiniMenu extends Component {
   render() {
@@ -20,11 +20,12 @@ export default class MiniMenu extends Component {
               <hr />
               {e.items.map(a => {
                 return (
-                  <MiniItem
+                  <MenuItem
                     name={a.name}
-                    desc={a.desc}
-                    desc2={a.desc2}
                     price={a.price}
+                    description={a.description}
+                    image={a.image}
+                    description2={a.description2}
                   />
                 );
               })}

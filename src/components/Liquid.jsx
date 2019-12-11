@@ -50,22 +50,22 @@ const drinks = [
         items: [
           {
             name: "McWilliam's Inheritance Chardonnay",
-            desc: "New South Wales | 2017 | 13% VOL",
+            description: "New South Wales | 2017 | 13% VOL",
             price: "14/65"
           },
           {
             name: "Yealands Estate Land Made Sauvignon Blanc",
-            desc: "New Zealand | 2016 | 13.5% VOL",
+            description: "New Zealand | 2016 | 13.5% VOL",
             price: "13/60"
           },
           {
             name: "McWilliam’s Inheritance Merlot",
-            desc: "New South Wales | 2016 | 13.5% VOL",
+            description: "New South Wales | 2016 | 13.5% VOL",
             price: "14/65"
           },
           {
             name: "Herdade da Pimenta Preta",
-            desc: "Portugal | 2015 | 14% VOL | JS90 | Full",
+            description: "Portugal | 2015 | 14% VOL | JS90 | Full",
             price: "13/60"
           }
         ]
@@ -75,17 +75,17 @@ const drinks = [
         items: [
           {
             name: "Herdade São Miguel Colheita Seleccionada Branco",
-            desc: "Alentejo | 2016 | 12.5% VOL",
+            description: "Alentejo | 2016 | 12.5% VOL",
             price: 75
           },
           {
             name: "Herdade da Pimenta Single Estate",
-            desc: "Alentejo | 2014 | 14% VOL | WS90 | Full",
+            description: "Alentejo | 2014 | 14% VOL | WS90 | Full",
             price: 95
           },
           {
             name: "Herdade da Pimenta Grande Escolha",
-            desc: "Alentejo | 2014 | 14.5% VOL | WE93 | Full",
+            description: "Alentejo | 2014 | 14.5% VOL | WE93 | Full",
             price: 135
           }
         ]
@@ -95,27 +95,27 @@ const drinks = [
         items: [
           {
             name: "Casa Lunardi Pinot Grigio",
-            desc: "Veneto | 2016 | 12% VOL",
+            description: "Veneto | 2016 | 12% VOL",
             price: 70
           },
           {
             name: "Ceretto Moscato d'Asti DOCG (Sweet Wine)",
-            desc: "Piedmont | 2016 | 5.5% VOL",
+            description: "Piedmont | 2016 | 5.5% VOL",
             price: 65
           },
           {
             name: "Castelforte Valpolicella Superiore DOC",
-            desc: "Veneto | 2014 | 13% VOL | Medium",
+            description: "Veneto | 2014 | 13% VOL | Medium",
             price: 70
           },
           {
             name: "Poggio Scalette Chianti Classico",
-            desc: "Tuscany | 2014 | 13% VOL | JS92 | Medium",
+            description: "Tuscany | 2014 | 13% VOL | JS92 | Medium",
             price: 85
           },
           {
             name: "Castelforte Amarone della Valpolicella DOC",
-            desc: "Veneto | 2013 | 15% VOL | Full",
+            description: "Veneto | 2013 | 15% VOL | Full",
             price: 150
           }
         ]
@@ -125,12 +125,12 @@ const drinks = [
         items: [
           {
             name: "Terrazas Reserva Chardonnay",
-            desc: "Mendoza | 2016 | 14.5% VOL",
+            description: "Mendoza | 2016 | 14.5% VOL",
             price: 65
           },
           {
             name: "Terrazas Reserva Malbec",
-            desc: "Mendoza | 2016 | 14.5% VOL | Full",
+            description: "Mendoza | 2016 | 14.5% VOL | Full",
             price: 65
           }
         ]
@@ -140,17 +140,17 @@ const drinks = [
         items: [
           {
             name: "Fetzer Sundial Chardonnay",
-            desc: "California | 2015 | 13% VOL",
+            description: "California | 2015 | 13% VOL",
             price: 85
           },
           {
             name: "Fetzer Valley Oaks Zinfandel",
-            desc: "California | 2015 | 13.5% VOL | Medium",
+            description: "California | 2015 | 13.5% VOL | Medium",
             price: 85
           },
           {
             name: "Joseph Phelps Cabernet Sauvignon",
-            desc: "Napa Valley | 2014 | 13.5% VOL | Full",
+            description: "Napa Valley | 2014 | 13.5% VOL | Full",
             price: 220
           }
         ]
@@ -160,42 +160,43 @@ const drinks = [
         items: [
           {
             name: "Rive Gauche Colombard Chardonnay",
-            desc: "Langeudoc | 2016 | 11% VOL",
+            description: "Langeudoc | 2016 | 11% VOL",
             price: 55
           },
           {
             name: "Domaine Christian Moreau Chablis",
-            desc: "Burgundy | 2015 | 12.5% VOL",
+            description: "Burgundy | 2015 | 12.5% VOL",
             price: 105
           },
           {
             name: "Rive Gauche Merlot",
-            desc: "Langeudoc | 2016 | 12.5% VOL | Medium",
+            description: "Langeudoc | 2016 | 12.5% VOL | Medium",
             price: 55
           },
           {
             name: "Vidal Fleury Cotes Du Rhone Rouge",
-            desc: "Rhone | 2015 | 14% VOL | WA87 | Medium",
+            description: "Rhone | 2015 | 14% VOL | WA87 | Medium",
             price: 95
           },
           {
             name: "Château La Croix La Bastienne",
-            desc: "Montagne St Émilion | 2014 | 13.5% VOL | Medium",
+            description: "Montagne St Émilion | 2014 | 13.5% VOL | Medium",
             price: 95
           },
           {
             name: "Lupe Cholet Bourgogne Hautes-Côtes de Beaune",
-            desc: "Burgundy | 2014 | 14% VOL | Light",
+            description: "Burgundy | 2014 | 14% VOL | Light",
             price: 105
           },
           {
             name: "Vidal Fleury Châteauneuf du Pape Rouge",
-            desc: "Rhone | 2013 | 14.5% VOL | WA89 | Medium - Full",
+            description: "Rhone | 2013 | 14.5% VOL | WA89 | Medium - Full",
             price: 150
           },
           {
             name: "Château Chapelle d’Aliénor",
-            desc: "Bordeaux Supérieur | 2015 | 14% VOL | WE90 | Medium - Full",
+            description:
+              "Bordeaux Supérieur | 2015 | 14% VOL | WE90 | Medium - Full",
             price: 165
           }
         ]
@@ -205,22 +206,22 @@ const drinks = [
         items: [
           {
             name: "Elderton E Series Chardonnay",
-            desc: "Barossa | 2016 | 13% VOL",
+            description: "Barossa | 2016 | 13% VOL",
             price: 65
           },
           {
             name: "Mount Pleasant Elizabeth Semillon",
-            desc: "Hunter Valley | 2016 | 10% VOL | JH90",
+            description: "Hunter Valley | 2016 | 10% VOL | JH90",
             price: 90
           },
           {
             name: "Elderton E Series Shiraz Cabernet",
-            desc: "Barossa | 2015 | 14.5% VOL | Medium - Full",
+            description: "Barossa | 2015 | 14.5% VOL | Medium - Full",
             price: 65
           },
           {
             name: "Mount Pleasant Philip Shiraz",
-            desc: "Hunter Valley | 2015 | 13.5% VOL | JH93 | Medium",
+            description: "Hunter Valley | 2015 | 13.5% VOL | JH93 | Medium",
             price: 95
           }
         ]
@@ -230,32 +231,32 @@ const drinks = [
         items: [
           {
             name: "Saint Clair Riesling",
-            desc: "Marlborough | 2015 | 11% VOL",
+            description: "Marlborough | 2015 | 11% VOL",
             price: 80
           },
           {
             name: "Cloudy Bay Sauvignon Blanc",
-            desc: "Malborough | 2016 | 13.5% VOL | JS90",
+            description: "Malborough | 2016 | 13.5% VOL | JS90",
             price: 95
           },
           {
             name: "Yealands Estate Single Vineyard P.G.R",
-            desc: "Marlborough | 2016 | 13% VOL",
+            description: "Marlborough | 2016 | 13% VOL",
             price: 85
           },
           {
             name: "Saint Clair Premium Cabernet Merlot",
-            desc: "Hawke’s Bay | 2016 | 13.5% VOL | Medium - Full",
+            description: "Hawke’s Bay | 2016 | 13.5% VOL | Medium - Full",
             price: 95
           },
           {
             name: "Yealands Estate Single Vineyard Pinot Noir",
-            desc: "Marlborough | 2014 | 13.5% VOL | Medium",
+            description: "Marlborough | 2014 | 13.5% VOL | Medium",
             price: 105
           },
           {
             name: "Cloudy Bay Pinot Noir",
-            desc: "Marlborough | 2014 | 13.5% VOL | Medium",
+            description: "Marlborough | 2014 | 13.5% VOL | Medium",
             price: 145
           }
         ]
@@ -372,46 +373,52 @@ const drinks = [
     category: "Cocktails",
     items: [
       {
-        sub: "Cocktails",
+        sub: "COCKTAILS",
         items: [
           {
             name: "Coastal Mojito",
-            desc:
+            description:
               "Raspberry Vodka, Strawberry Puree, Orange Juice, Cranberry Juice, Mint Leaves, Fresh Raspberry",
             price: 15
           },
           {
             name: "Sparkling Lychee Mojito",
-            desc: "Sparkling Lychee Wine, Lychee Syrup, Mint Leaves",
+            description: "Sparkling Lychee Wine, Lychee Syrup, Mint Leaves",
             price: 15
           },
           {
             name: "Lychee Mojito",
-            desc: "Vodka, Lychee Liqueur, Mint Leaves, Lychee Fruit",
+            description: "Vodka, Lychee Liqueur, Mint Leaves, Lychee Fruit",
             price: 15
           },
           {
             name: "Changi Sling",
-            desc:
+            description:
               "Gin, Cherry Brandy, Triple Sec, Orange Juice, Benedictine DOM, Grenadine, Pineapple Juice",
             price: 15
           },
           {
             name: "Long Island Tea",
-            desc: "Gin, Vodka, Rum, Tequila, Triple Sec, Lime Juice, Coke",
+            description:
+              "Gin, Vodka, Rum, Tequila, Triple Sec, Lime Juice, Coke",
             price: 16
           },
           {
             name: "TCS Spritzer",
-            desc: "Red Wine, Cognac, Cointreau, Orange Juice, Sprite",
+            description: "Red Wine, Cognac, Cointreau, Orange Juice, Sprite",
             price: 15
           },
           {
             name: "Martini",
-            desc: "Classic Dry | Dirty | Lychee | Cosmopolitan | Espresso",
+            description:
+              "Classic Dry | Dirty | Lychee | Cosmopolitan | Espresso",
             price: 15
           },
-          { name: "Mimosa", desc: "Champagne & Fresh Orange Juice", price: 18 }
+          {
+            name: "Mimosa",
+            description: "Champagne & Fresh Orange Juice",
+            price: 18
+          }
         ]
       }
     ]
@@ -436,54 +443,54 @@ const drinks = [
         items: [
           {
             name: "Mojito Delight",
-            desc: "Mint, Lime Juice, Fresh Lime",
-            desc2: "Original | Lychee | Apple",
+            description: "Mint, Lime Juice, Fresh Lime",
+            description2: "Original | Lychee | Apple",
             price: 12
           },
           {
             name: "Shirley Temple",
-            desc: "Lime Juice, Sprite, Grenadine Syrup",
+            description: "Lime Juice, Sprite, Grenadine Syrup",
             price: 12
           },
           {
             name: "Cucumber Lemonade",
-            desc: "Sprite, Cucumber Syrup, Mint, Lime Juice",
+            description: "Sprite, Cucumber Syrup, Mint, Lime Juice",
             price: 12
           },
           {
             name: "Governor’s Smile",
-            desc: "Orange Juice, Milk, Honey",
+            description: "Orange Juice, Milk, Honey",
             price: 12
           },
           {
             name: "Atomic Melon",
-            desc: "Rock Melon & Lychee Syrup",
+            description: "Rock Melon & Lychee Syrup",
             price: 12
           },
           {
             name: "Green Energy",
-            desc: "Green Apple, Cucumber, Celery",
+            description: "Green Apple, Cucumber, Celery",
             price: 12
           },
           {
             name: "Red Castle",
-            desc: "Raspberry, Lychee, Lychee Syrup",
+            description: "Raspberry, Lychee, Lychee Syrup",
             price: 12
           },
           {
             name: "TCS Therapy",
-            desc: "Green Apple, Rock Melon, Watermelon",
+            description: "Green Apple, Rock Melon, Watermelon",
             price: 12
           },
           {
             name: "Traffic Light",
-            desc: "Red Apple, Orange, Green Apple",
+            description: "Red Apple, Orange, Green Apple",
             price: 12
           },
           {
             name: "Fresh Juice",
-            desc: "Select up to any 2:",
-            desc2:
+            description: "Select up to any 2:",
+            description2:
               "Carrot | Celery | Cucumber | Green/Red Apple | Orange | Rock Melon | Watermelon",
             price: 9
           }
@@ -513,7 +520,7 @@ const drinks = [
           },
           {
             name: "Latte | Cappuccino | Flat White | Macchiato | Mocha",
-            desc:
+            description:
               "*Extra shot of Espresso +$1 | Vanilla, Hazelnut, Toffee Nut +$1",
             price: "6/7"
           },
@@ -529,7 +536,7 @@ const drinks = [
           {
             name:
               "Earl Grey Classic | Green Tea | Peppermint | Roman Chamomile | Special Breakfast",
-            desc: "*one complimentary refill",
+            description: "*one complimentary refill",
             price: "8/9"
           }
         ]
