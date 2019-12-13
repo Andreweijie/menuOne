@@ -15,8 +15,8 @@ const drinks = [
       {
         sub: "DRAUGHT BEER",
         items: [
-          { name: "Kronenbourg Blanc - Pint 500ml", price: "14/75" },
-          { name: "Kronenbourg Lager - Pint 500ml", price: "14/75" }
+          { name: "Kronenbourg Blanc - Pint 500ml", price: 14 },
+          { name: "Kronenbourg Lager - Pint 500ml", price: 14 }
         ]
       },
       {
@@ -46,27 +46,43 @@ const drinks = [
     category: "Wines",
     items: [
       {
-        sub: "HOUSE WINES",
+        sub: "FRANCE",
         items: [
           {
-            name: "McWilliam's Inheritance Chardonnay",
-            description: "New South Wales | 2017 | 13% VOL",
-            price: "14/65"
+            name: "Rive Gauche Colombard Chardonnay",
+            description: "Langeudoc | 2016 | 11% VOL",
+            price: 55
           },
           {
-            name: "Yealands Estate Land Made Sauvignon Blanc",
-            description: "New Zealand | 2016 | 13.5% VOL",
-            price: "13/60"
+            name: "Domaine Christian Moreau Chablis",
+            description: "Burgundy | 2015 | 12.5% VOL",
+            price: 105
           },
           {
-            name: "McWilliam’s Inheritance Merlot",
-            description: "New South Wales | 2016 | 13.5% VOL",
-            price: "14/65"
+            name: "Rive Gauche Merlot",
+            description: "Langeudoc | 2016 | 12.5% VOL | Medium",
+            price: 55
           },
           {
-            name: "Herdade da Pimenta Preta",
-            description: "Portugal | 2015 | 14% VOL | JS90 | Full",
-            price: "13/60"
+            name: "Vidal Fleury Cotes Du Rhone Rouge",
+            description: "Rhone | 2015 | 14% VOL | WA87 | Medium",
+            price: 95
+          },
+          {
+            name: "Lupe Cholet Bourgogne Hautes-Côtes de Beaune",
+            description: "Burgundy | 2014 | 14% VOL | Light",
+            price: 105
+          },
+          {
+            name: "Vidal Fleury Châteauneuf du Pape Rouge",
+            description: "Rhone | 2013 | 14.5% VOL | WA89 | Medium - Full",
+            price: 150
+          },
+          {
+            name: "Château Chapelle d’Aliénor",
+            description:
+              "Bordeaux Supérieur | 2015 | 14% VOL | WE90 | Medium - Full",
+            price: 165
           }
         ]
       },
@@ -77,6 +93,11 @@ const drinks = [
             name: "Herdade São Miguel Colheita Seleccionada Branco",
             description: "Alentejo | 2016 | 12.5% VOL",
             price: 75
+          },
+          {
+            name: "Herdade da Pimenta Preta",
+            description: "Portugal | 2015 | 14% VOL | JS90 | Full",
+            price: "13/60"
           },
           {
             name: "Herdade da Pimenta Single Estate",
@@ -94,14 +115,14 @@ const drinks = [
         sub: "ITALY",
         items: [
           {
-            name: "Casa Lunardi Pinot Grigio",
-            description: "Veneto | 2016 | 12% VOL",
-            price: 70
-          },
-          {
             name: "Ceretto Moscato d'Asti DOCG (Sweet Wine)",
             description: "Piedmont | 2016 | 5.5% VOL",
             price: 65
+          },
+          {
+            name: "Casa Lunardi Pinot Grigio",
+            description: "Veneto | 2016 | 12% VOL",
+            price: 70
           },
           {
             name: "Castelforte Valpolicella Superiore DOC",
@@ -109,14 +130,74 @@ const drinks = [
             price: 70
           },
           {
-            name: "Poggio Scalette Chianti Classico",
-            description: "Tuscany | 2014 | 13% VOL | JS92 | Medium",
-            price: 85
-          },
-          {
             name: "Castelforte Amarone della Valpolicella DOC",
             description: "Veneto | 2013 | 15% VOL | Full",
             price: 150
+          }
+        ]
+      },
+      {
+        sub: "AUSTRALIA",
+        items: [
+          {
+            name: "McWilliam's Inheritance Chardonnay",
+            description: "New South Wales | 2017 | 13% VOL",
+            price: "14/65"
+          },
+          {
+            name: "Petersons Semillon",
+            description: "Hunter Valley | 2018 | Alc: 11.3% VOL",
+            price: 75
+          },
+          {
+            name: "Mount Pleasant Elizabeth Semillon",
+            description: "Hunter Valley | 2016 | 10% VOL | JH90",
+            price: 90
+          },
+          {
+            name: "McWilliam’s Inheritance Merlot",
+            description: "New South Wales | 2016 | 13.5% VOL",
+            price: "14/65"
+          },
+          {
+            name: "Petersons Shiraz Cabernet",
+            description: "Mudgee | 2015 | 14.8% VOL | Full",
+            price: 65
+          },
+          {
+            name: "Mount Pleasant Philip Shiraz",
+            description: "Hunter Valley | 2015 | 13.5% VOL | JH93 | Medium",
+            price: 95
+          }
+        ]
+      },
+      {
+        sub: "NEW ZEALAND",
+        items: [
+          {
+            name: "Yealands Estate Land Made Sauvignon Blanc",
+            description: "New Zealand | 2016 | 13.5% VOL",
+            price: "13/60"
+          },
+          {
+            name: "Cloudy Bay Sauvignon Blanc",
+            description: "Malborough | 2016 | 13.5% VOL | JS90",
+            price: 95
+          },
+          {
+            name: "Yealands Estate Single Vineyard P.G.R",
+            description: "Marlborough | 2016 | 13% VOL",
+            price: 85
+          },
+          {
+            name: "Yealands Estate Single Vineyard Pinot Noir",
+            description: "Marlborough | 2014 | 13.5% VOL | Medium",
+            price: 105
+          },
+          {
+            name: "Cloudy Bay Pinot Noir",
+            description: "Marlborough | 2014 | 13.5% VOL | Medium",
+            price: 145
           }
         ]
       },
@@ -152,112 +233,6 @@ const drinks = [
             name: "Joseph Phelps Cabernet Sauvignon",
             description: "Napa Valley | 2014 | 13.5% VOL | Full",
             price: 220
-          }
-        ]
-      },
-      {
-        sub: "FRANCE",
-        items: [
-          {
-            name: "Rive Gauche Colombard Chardonnay",
-            description: "Langeudoc | 2016 | 11% VOL",
-            price: 55
-          },
-          {
-            name: "Domaine Christian Moreau Chablis",
-            description: "Burgundy | 2015 | 12.5% VOL",
-            price: 105
-          },
-          {
-            name: "Rive Gauche Merlot",
-            description: "Langeudoc | 2016 | 12.5% VOL | Medium",
-            price: 55
-          },
-          {
-            name: "Vidal Fleury Cotes Du Rhone Rouge",
-            description: "Rhone | 2015 | 14% VOL | WA87 | Medium",
-            price: 95
-          },
-          {
-            name: "Château La Croix La Bastienne",
-            description: "Montagne St Émilion | 2014 | 13.5% VOL | Medium",
-            price: 95
-          },
-          {
-            name: "Lupe Cholet Bourgogne Hautes-Côtes de Beaune",
-            description: "Burgundy | 2014 | 14% VOL | Light",
-            price: 105
-          },
-          {
-            name: "Vidal Fleury Châteauneuf du Pape Rouge",
-            description: "Rhone | 2013 | 14.5% VOL | WA89 | Medium - Full",
-            price: 150
-          },
-          {
-            name: "Château Chapelle d’Aliénor",
-            description:
-              "Bordeaux Supérieur | 2015 | 14% VOL | WE90 | Medium - Full",
-            price: 165
-          }
-        ]
-      },
-      {
-        sub: "AUSTRALIA",
-        items: [
-          {
-            name: "Elderton E Series Chardonnay",
-            description: "Barossa | 2016 | 13% VOL",
-            price: 65
-          },
-          {
-            name: "Mount Pleasant Elizabeth Semillon",
-            description: "Hunter Valley | 2016 | 10% VOL | JH90",
-            price: 90
-          },
-          {
-            name: "Elderton E Series Shiraz Cabernet",
-            description: "Barossa | 2015 | 14.5% VOL | Medium - Full",
-            price: 65
-          },
-          {
-            name: "Mount Pleasant Philip Shiraz",
-            description: "Hunter Valley | 2015 | 13.5% VOL | JH93 | Medium",
-            price: 95
-          }
-        ]
-      },
-      {
-        sub: "NEW ZEALAND",
-        items: [
-          {
-            name: "Saint Clair Riesling",
-            description: "Marlborough | 2015 | 11% VOL",
-            price: 80
-          },
-          {
-            name: "Cloudy Bay Sauvignon Blanc",
-            description: "Malborough | 2016 | 13.5% VOL | JS90",
-            price: 95
-          },
-          {
-            name: "Yealands Estate Single Vineyard P.G.R",
-            description: "Marlborough | 2016 | 13% VOL",
-            price: 85
-          },
-          {
-            name: "Saint Clair Premium Cabernet Merlot",
-            description: "Hawke’s Bay | 2016 | 13.5% VOL | Medium - Full",
-            price: 95
-          },
-          {
-            name: "Yealands Estate Single Vineyard Pinot Noir",
-            description: "Marlborough | 2014 | 13.5% VOL | Medium",
-            price: 105
-          },
-          {
-            name: "Cloudy Bay Pinot Noir",
-            description: "Marlborough | 2014 | 13.5% VOL | Medium",
-            price: 145
           }
         ]
       }
@@ -404,11 +379,6 @@ const drinks = [
             price: 16
           },
           {
-            name: "TCS Spritzer",
-            description: "Red Wine, Cognac, Cointreau, Orange Juice, Sprite",
-            price: 15
-          },
-          {
             name: "Martini",
             description:
               "Classic Dry | Dirty | Lychee | Cosmopolitan | Espresso",
@@ -416,8 +386,57 @@ const drinks = [
           },
           {
             name: "Mimosa",
-            description: "Champagne & Fresh Orange Juice",
-            price: 18
+            description: "Prosecco & Fresh Orange Juice",
+            price: 18,
+            image: "/images/mimosa.JPG"
+          },
+          {
+            name: "Bloody Mary",
+            description:
+              "Worcestershire Sauce, Vodka, Tomato Juice, Tabasco Sauce, Celery Stalk",
+            price: 18,
+            image: "/images/bloody-mary.jpg"
+          },
+          {
+            name: "Whisky Sour",
+            description:
+              "Single Malt Whisky, Sour Mix, Freshly Squeezed Lemon Juice, Egg White, Orange Peel",
+            price: 18,
+            image: "/images/whiskey-sour.jpg"
+          },
+          {
+            name: "Purple Sapphire",
+            description:
+              "Blackcurrant Jam, Bombay Sapphire Gin, Vanilla Syrup, Freshly Squeezed Lemon Juice",
+            price: 18,
+            image: "/images/purple-sapphire.jpg"
+          },
+          {
+            name: "Strawberry Rumfee",
+            description:
+              "Espresso, Strawberry Yoghurt, Strawberry Jam, Rum, Strawberry",
+            price: 18,
+            image: "/images/strawberry-rumfee.jpg"
+          },
+          {
+            name: "Pina Colada",
+            description: "Rum, Pineapple Juice, Coconut Cream, Pineapple Wedge",
+            price: 18,
+            image: "/images/pina-colada.jpg"
+          },
+          {
+            name: "Sangria (Red)",
+            description:
+              "Cognac, Triple Sec, Simple Syrup, Orange Juice, Red Wine, Soda",
+            price: 18,
+            image: "/images/sangria.jpg"
+          },
+          {
+            name: "Sangria (White)",
+            description:
+              "Cognac, Triple Sec, Simple Syrup, Orange Juice, White Wine, Soda",
+            price: 18,
+            image: "/images/sangria.jpg"
           }
         ]
       }
