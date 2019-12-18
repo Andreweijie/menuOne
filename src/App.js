@@ -6,6 +6,7 @@ import Liquid from "./components/Liquid";
 import Specials from "./components/Specials";
 import Breakfast from "./components/Breakfast";
 import HighTea from "./components/HighTea";
+import Events from "./components/Events";
 import "./App.css";
 
 class App extends Component {
@@ -690,6 +691,7 @@ class App extends Component {
           <Route exact path="/liquid" component={Liquid} />
           <Route exact path="/specials" component={Specials} />
           <Route exact path="/high-tea" component={HighTea} />
+          <Route exact path="/christmas" component={Events} />
           <Route
             exact
             path="/breakfast"
