@@ -27,73 +27,75 @@ class App extends Component {
               description:
                 "boston mussels, brown clams, tomatoes, fennel, leeks, cream, white wine, artisanal toast",
               price: 25,
-              image: "/images/pot-of-mussels-&-clams.JPG"
+              image: "/images/pot-of-mussels-&-clams.jpg"
             },
             {
               name: "SMOKED SALMON & AVOCADO SALAD",
               description:
                 "norwegian smoked salmon, avocado, romaine lettuce, edamame, broccolini, cherry tomato, fresh dill, micro cress, ikura, parmesan shavings, yuzu soy dressing",
               price: 21,
-              image: "/images/smoked-salmon-avocado-salad.JPG"
+              image: "/images/smoked-salmon-avocado-salad.jpg"
             },
             {
               name: "OTAK-OTAK",
               description:
                 "mackerel fish paste, cucumber ribbons, hand-picked greens, fine beans, coriander, tamarind dressing, crushed peanuts, toast",
-              price: 19
+              price: 19,
+              image: "/images/otak-otak.jpg"
             },
             {
               name: "CRISPY PORK RIBS",
               description:
                 "marinated pork ribs, mustard dressing, pickled chilli, coriander",
               price: 16,
-              image: "/images/crispy-pork-ribs.JPG"
+              image: "/images/crispy-pork-ribs.jpg"
             },
             {
               name: "TCS WAGYU CUBES",
               description:
                 "angus wagyu beef, mushroom salsa, mesclun salad, TCS dressing",
-              price: 24
+              price: 24,
+              image: "/images/tcs-wagyu-cubes.jpg"
             },
             {
               name: "HAR CHEONG GAI",
               description: "deep fried prawn paste chicken wings, chilli sauce",
               price: 14,
-              image: "/images/har-cheong-gai.JPG"
+              image: "/images/har-cheong-gai.jpg"
             },
             {
               name: "CALAMARI",
               description: "spiced salt and pepper squid, passion fruit mayo",
               price: 16,
-              image: "/images/calamari.JPG"
+              image: "/images/calamari.jpg"
             },
             {
               name: "PORTOBELLO FRIES",
               description:
                 "portobello mushrooms, panko, parmesan shavings, cep powder, truffle mayonnaise",
               price: 15,
-              image: "/images/portobello-fries.JPG"
+              image: "/images/portobello-fries.jpg"
             },
             {
               name: "TRUFFLE FRIES ",
               description:
                 "straight-cut fries, truffle oil, truffle mayonnaise",
               price: 15,
-              image: "/images/truffle-fries.JPG"
+              image: "/images/truffle-fries.jpg"
             },
             {
               name: "SWEET POTATO FRIES",
               description:
                 "garlic, house seasoning, paprika, sriracha mayonnaise, parmesan shavings",
               price: 15,
-              image: "/images/sweet-potato-fries.JPG"
+              image: "/images/sweet-potato-fries.jpg"
             },
             {
               name: "SPAM FRIES ",
               description:
                 "straight-cut luncheon meat, sriracha mayonnaise, chili sauce",
               price: 14,
-              image: "/images/spam-fries.JPG"
+              image: "/images/spam-fries.jpg"
             }
           ],
           Meat: [
@@ -240,58 +242,63 @@ class App extends Component {
               description:
                 "xo sauce, prawns, garlic confit, edamame, prawn stock, bird’s eye chilli, linguine",
               price: 25,
-              image: "/images/xo-prawn-aglio-olio.JPG"
+              image: "/images/xo-prawn-aglio-olio.jpg"
             },
             {
               name: "LINGUINE VONGOLE",
               description: "clam, tomato, fennel, leek",
               description2: "choice of sauce: white wine or cream",
-              price: 25
+              price: 25,
+              image: "/images/linguine-vongole.jpg"
             },
             {
               name: "VEGETARIAN AGLIO OLIO",
               description:
                 "broccolini, asparagus, garlic confit, edamame, bird’s eye chili",
-              price: 25
+              price: 25,
+              image: "/images/vegetarian-aglio-olio.jpg"
             },
             {
               name: "TCS CRAYFISH & PRAWN LAKSA",
               description:
                 "crayfish, prawns, hard shell scallop, tau pok, fish cake, bean sprouts, hard boiled egg, laksa leaves, thick rice noodle, yellow noodle",
-              price: 25
+              price: 25,
+              image: "/images/tcs-crayfish-n-prawn-laksa.jpg"
             },
             {
               name: "TCS HOKKIEN MEE",
               description:
                 "prawns, squid, brown clam, hard shell scallop, bean sprouts, chinese chives, homemade chilli, calamansi, pork & prawn stock, yellow noodle, rice noodle",
               price: 24,
-              image: "/images/hokkien-mee.JPG"
+              image: "/images/tcs-hokkien-mee.JPG"
             },
             {
               name: "OYSTER CHAR KUAY TEOW",
               description:
                 "korean oysters, flat noodle, fish cake, asian greens, egg, flat rice noodle",
-              price: 23
+              price: 23,
+              image: "/images/oyster-char-kuay-teow.jpg"
             },
             {
               name: "TCS NASI LEMAK ",
               description:
                 "grilled tiger prawns, fried chicken, baked otak-otak, sunny-side up egg, ikan bilis, cucumber, sambal, coconut rice",
               price: 25,
-              image: "/images/nasi-lemak.JPG"
+              image: "/images/tcs-nasi-lemak.jpg"
             },
             {
               name: "TCS NASI CAMPUR ",
               description:
                 "beef rendang, crispy chicken, otak-otak, sambal lady's finger, sunny side-up egg, achar, ikan bilis, coconut rice, TCS sambal chili",
               price: 26,
-              image: "/images/nasi-campur.JPG"
+              image: "/images/tcs-nasi-campur.jpg"
             },
             {
               name: "BEEF RENDANG",
               description:
                 "slow cooked beef, rendang spices, papadum, achar, jasmine rice",
-              price: 23
+              price: 23,
+              image: "/images/tcs-beef-rendang.jpg"
             }
           ],
           Desserts: [
