@@ -112,28 +112,28 @@ class App extends Component {
               description:
                 "chargrilled half chicken, kicap manis glaze, bib lettuce, coleslaw, thick-cut fries, charred lime, TCS sambal belacan",
               price: 26,
-              image: "/images/grilled-chicken.JPG"
+              image: "/images/grilled-chicken.jpg"
             },
             {
               name: "RIBEYE ROSTI",
               description:
                 "angus ribeye (240g), hand-cut potato rosti, broccolini, ketchup jus",
               price: 41,
-              image: "/images/ribeye-rosti.JPG"
+              image: "/images/ribeye-rosti.jpg"
             },
             {
               name: "GRILLED LAMB CHOPS",
               description:
                 "new zealand lamb chops, fine beans, buttered oatmeal, cilantro, mint yogurt dressing, basil oil, swiss chard ",
               price: 39,
-              image: "/images/grilled-lamb-chops.JPG"
+              image: "/images/grilled-lamb-chops.jpg"
             },
             {
               name: "BABY BACK RIBS",
               description:
                 "bbq baby back ribs, apple cider glaze, buttered corn kernels, thick-cut fries, coleslaw",
               price: 38,
-              image: "/images/baby-back-ribs.JPG"
+              image: "/images/baby-back-ribs.jpg"
             },
             {
               name: "PORTOBELLO CHEESE BURGER",
@@ -141,13 +141,14 @@ class App extends Component {
                 "homemade wagyu beef patty (180g), grilled portobello, bacon, onions, homemade ketchup, melted cheese, gherkin, thick-cut fries, mesclun salad",
               description2: "+ fried egg $3",
               price: 26,
-              image: "/images/portobello-burger.JPG"
+              image: "/images/portobello-cheese-burger.jpg"
             },
             {
               name: "SMOKED SALMON ROSTI SAUSAGE",
               description:
                 "hand-cut potato rosti, chicken cheese sausage, norwegian smoked salmon, mesclun salad, sour cream",
-              price: 24
+              price: 24,
+              image: "/images/smoked-salmon-rosti-sausage.jpg"
             }
           ],
           Seafood: [
@@ -318,7 +319,8 @@ class App extends Component {
             {
               name: "DAILY CAKES",
               description: "available at our cake counter",
-              price: 10
+              price: 10,
+              image: "/images/cakes.jpg"
             }
           ],
           "Add-Ons": [
