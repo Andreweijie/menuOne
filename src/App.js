@@ -203,38 +203,40 @@ class App extends Component {
               description:
                 "sliced wagyu beef, sauteed mushrooms, caramelised onions, mozzarella, cheddar, white wine cream sauce",
               price: 25,
-              image: "/images/wagyu-beef-n-mushroom-pizza.JPG"
+              image: "/images/wagyu-beef-&-mushroom.jpg"
             },
             {
               name: "PEPPERONI",
               description:
                 "pepperoni, salami, mozzarella, cheddar, olives, red chilli, tomato sauce",
-              price: 23
+              price: 23,
+              image: "/images/pepperoni-pizza.jpg"
             },
             {
               name: "HAWAIIAN",
               description:
                 "gourmet ham, grilled pineapple, bacon, tomato sauce, bbq sauce",
-              price: 23
+              price: 23,
+              image: "/images/hawaiian-pizza.jpg"
             },
             {
               name: "MARGHERITA",
               description: "tomato sauce, basil oil, cheddar, fresh mozzarella",
               price: 23,
-              image: "/images/margherita-pizza.JPG"
+              image: "/images/margherita-pizza.jpg"
             },
             {
               name: "AL FUNGHI",
               description:
                 "assorted mushrooms, caramelised onion, mozzarella, cheddar, truffle parmesan, arugula, white wine cream sauce",
               price: 23,
-              image: "/images/al-funghi-pizza.JPG"
+              image: "/images/al-funghi-pizza.jpg"
             },
             {
               name: "HALF & HALF PIZZA",
               description: "any 2 of the above",
               price: 25,
-              image: "/images/half-n-half-pizza.JPG"
+              image: "/images/half-n-half-pizza.jpg"
             }
           ],
           "Rice and Noodles": [
