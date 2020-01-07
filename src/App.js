@@ -159,13 +159,14 @@ class App extends Component {
                 "hong kong style with coriander - teochew steamed with pickled vegetables, tomato, shitake mushroom, tofu & plum - sour spicy steamed with pickled vegetables, lemongrass, tomato & plum - sichuan boiled fish with bean sprouts & tofu - ikan bakar (grilled) with TCS signature sambal, lemon & salad. served with a bowl of jasmine rice or porridge (allow 20 min cooking time) Additional bee hoon or kway teow on fish +8",
               price: "48",
               fishes: "Grouper | Pomfret | Snapper",
-              image: "/images/hk-style-grouper.jpg"
+              image: "/images/wild-catch-fish-snapper.jpg"
             },
             {
               name: "GRILLED OCTOPUS",
               description:
                 "char grilled octopus, rojak salad, fried tau pok, shrimp paste, peanuts, mesclun salad",
-              price: 31
+              price: 31,
+              image: "/images/grilled-octopus.jpg"
             } /*
             {
               name: "DOZEN STEAMED PRAWNS",
@@ -176,25 +177,28 @@ class App extends Component {
               name: "MALA SEAFOOD POT",
               description:
                 "prawn, clam, mussel, lotus root, wood ear, broccolini, french bean, sichuan spices, jasmine rice",
-              price: 29
+              price: 29,
+              image: "/images/mala-seafood-pot.jpg"
             },
             {
               name: "SAMBAL SQUID",
               description:
                 "grilled sambal squid with winged bean and lady’s finger ",
-              price: 21
+              price: 21,
+              image: "/images/sambal-squid.jpg"
             },
             {
               name: "DRUNKEN LALA CLAMS",
               description: "chinese wine, ginger, mirin, coriander",
-              price: 23
+              price: 23,
+              image: "/images/drunken-lala-clams.jpg"
             },
             {
               name: "FISH & CHIPS",
               description:
                 "beer battered atlantic cod, thick-cut fries, tomato, nori powder, mesclun salad, wasabi soy dressing, tartar sauce",
               price: 28,
-              image: "/images/fish-n-chips.JPG"
+              image: "/images/fish-&-chips.jpg"
             }
           ],
           Pizzas: [
@@ -273,7 +277,7 @@ class App extends Component {
               description:
                 "prawns, squid, brown clam, hard shell scallop, bean sprouts, chinese chives, homemade chilli, calamansi, pork & prawn stock, yellow noodle, rice noodle",
               price: 24,
-              image: "/images/tcs-hokkien-mee.JPG"
+              image: "/images/tcs-hokkien-mee.jpg"
             },
             {
               name: "OYSTER CHAR KUAY TEOW",
@@ -309,7 +313,8 @@ class App extends Component {
               name: "TCS WAFFLE STACK",
               description:
                 "freshly pressed waffle, banana, strawberry, nutella, maple syrup, chantilly cream, triple dark chocolate gelato",
-              price: 14
+              price: 14,
+              image: "/images/tcs-waffle-stack.jpg"
             },
             {
               name: "ICE CREAM",
@@ -328,67 +333,76 @@ class App extends Component {
           "Add-Ons": [
             {
               name: "SAMBAL KANGKONG",
-              price: 13
+              price: 13,
+              image: "/images/sambal-kangkong.jpg"
             },
             {
               name: "BUTTER GRILLED CORN",
-              price: 8
+              price: 8,
+              image: "/images/butter-grilled-corn.jpg"
             },
             {
               name: "SAUTEED MUSHROOMS",
-              price: 12
+              price: 12,
+              image: "/images/sauteed-mushrooms.jpg"
             },
             {
               name: "TRUFFLE MASHED POTATO",
-              price: 8
+              price: 8,
+              image: "/images/truffle-mashed-potato.jpg"
             },
             {
               name: "MIXED GREEN SALAD W/ FETA AND BALSAMIC GLAZE",
-              price: 9
+              price: 9,
+              image: "/images/mixed-green-salad.jpg"
             },
             {
               name: "CHARRED BROCOLINI W/ CRUMBLED FETA",
-              price: 15
+              price: 15,
+              image: "/images/charred-brocolini.jpg"
             },
             {
               name: "CHARRED ASPARAGUS",
-              price: 15
+              price: 15,
+              image: "/images/charred-asparagus.jpg"
             },
             {
               name: "JASMINE RICE",
-              price: 4
+              price: 4,
+              image: "/images/jasmine-rice.jpg"
             },
             {
               name: "COCONUT RICE",
-              price: 5
+              price: 5,
+              image: "/images/coconut-rice.jpg"
             }
           ],
           Kids: [
             {
               name: "TATER TOTS AND NUGGETS",
               price: 12,
-              image: "/images/tator-tots.JPG"
+              image: "/images/tator-tots-and-nuggets.jpg"
             },
             {
               name: "JUNIOR FISH AND CHIPS",
               description:
                 "fish fingers, straight-cut fries, tartar sauce, lemon cheek",
               price: 14,
-              image: "/images/kids-fish-n-chips.JPG"
+              image: "/images/junior-fish-and-chips.jpg"
             },
             {
               name: "SAUSAGE AND SPAGHETTI",
               description:
                 "chicken cheese sausage, sunny-side up, tomato sauce, parmesan shavings",
               price: 15,
-              image: "/images/kids-spaghetti.JPG"
+              image: "/images/sausage-and-spaghetti.jpg"
             },
             {
               name: "CHEESE BURGER",
               description:
                 "homemade wagyu beef patty (120g), melted cheese, tomato, romaine lettuce, ketchup, straight-cut fries",
               price: 16,
-              image: "/images/kids-cheeseburger.JPG"
+              image: "/images/cheese-burger.jpg"
             }
           ]
         },
@@ -456,7 +470,7 @@ class App extends Component {
               description:
                 "beer battered atlantic cod, thick-cut fries, tomato, nori powder, mesclun salad, wasabi soy dressing, tartar sauce",
               price: 28,
-              image: "/images/fish-n-chips.JPG"
+              image: "/images/fish-&-chips.jpg"
             },
             {
               name: "CHICKEN WAFFLE",
@@ -470,7 +484,7 @@ class App extends Component {
               description:
                 "xo sauce, prawns, garlic confit, edamame, prawn stock, bird’s eye chilli, linguine",
               price: 25,
-              image: "/images/xo-prawn-aglio-olio.JPG"
+              image: "/images/xo-prawn-aglio-olio.jpg"
             },
             {
               name: "TRUFFLE MUSHROOM LINGUINE",
@@ -483,27 +497,29 @@ class App extends Component {
               name: "TCS CRAYFISH & PRAWN LAKSA",
               description:
                 "crayfish, prawns, tau pok, fish cake, bean sprouts, hard boiled egg, laksa leaves, thick rice noodle, yellow noodle",
-              price: 25
+              price: 25,
+              image: "/images/tcs-crayfish-n-prawn-laksa.jpg"
             },
             {
               name: "TCS HOKKIEN MEE",
               description:
                 "prawns, squid, brown clams, bean sprouts, chinese chives, homemade chilli, calamansi, pork & prawn stock, yellow noodle, rice noodle",
               price: 24,
-              image: "/images/hokkien-mee.JPG"
+              image: "/images/tcs-hokkien-mee.jpg"
             },
             {
               name: "OYSTER CHAR KUAY TEOW",
               description:
                 "korean oysters, flat noodle, fish cake, asian greens, egg ",
-              price: 23
+              price: 23,
+              image: "/images/oyster-char-kuay-teow.jpg"
             },
             {
               name: "TCS NASI LEMAK",
               description:
                 "grilled tiger prawns, fried chicken, baked otak-otak, sunny-side up egg, ikan bilis, cucumber, sambal, coconut rice",
               price: 25,
-              image: "/images/nasi-lemak.JPG"
+              image: "/images/tcs-nasi-lemak.jpg"
             }
           ],
           Sharing: [
@@ -519,47 +535,48 @@ class App extends Component {
               description:
                 "norwegian smoked salmon, avocado, romaine lettuce, edamame, broccolini, cherry tomato, fresh dill, micro cress, ikura, parmesan shavings, yuzu soy dressing",
               price: 21,
-              image: "/images/smoked-salmon-avocado-salad.JPG"
+              image: "/images/smoked-salmon-avocado-salad.jpg"
             },
             {
               name: "TCS WAGYU CUBES",
               description:
                 "angus wagyu beef, mushroom salsa, mesclun salad, TCS dressing",
-              price: 24
+              price: 24,
+              image: "/images/tcs-wagyu-cubes.jpg"
             },
             {
               name: "HAR CHEONG GAI",
               description: "deep fried prawn paste chicken wings, chilli sauce",
               price: 14,
-              image: "/images/har-cheong-gai.JPG"
+              image: "/images/har-cheong-gai.jpg"
             },
             {
               name: "PORTOBELLO FRIES",
               description:
                 "portobello mushrooms, panko, parmesan shavings, cep powder, truffle mayonnaise",
               price: 15,
-              image: "/images/portobello-fries.JPG"
+              image: "/images/portobello-fries.jpg"
             },
             {
               name: "TRUFFLE FRIES ",
               description:
                 "straight-cut fries, truffle oil, truffle mayonnaise",
               price: 15,
-              image: "/images/truffle-fries.JPG"
+              image: "/images/truffle-fries.jpg"
             },
             {
               name: "SWEET POTATO FRIES",
               description:
                 "garlic, house seasoning, paprika, sriracha mayonnaise, parmesan shavings",
               price: 15,
-              image: "/images/sweet-potato-fries.JPG"
+              image: "/images/sweet-potato-fries.jpg"
             },
             {
               name: "SPAM FRIES ",
               description:
                 "straight-cut luncheon meat, sriracha mayonnaise, chili sauce",
               price: 14,
-              image: "/images/spam-fries.JPG"
+              image: "/images/spam-fries.jpg"
             }
           ],
           Pizzas: [
@@ -568,38 +585,40 @@ class App extends Component {
               description:
                 "sliced wagyu beef, sauteed mushrooms, caramelised onions, mozzarella, cheddar, white wine cream sauce",
               price: 25,
-              image: "/images/wagyu-beef-n-mushroom-pizza.JPG"
+              image: "/images/wagyu-beef-&-mushroom.jpg"
             },
             {
               name: "PEPPERONI",
               description:
                 "pepperoni, salami, mozzarella, cheddar, olives, red chilli, tomato sauce",
-              price: 23
+              price: 23,
+              image: "/images/pepperoni-pizza.jpg"
             },
             {
               name: "HAWAIIAN",
               description:
                 "gourmet ham, grilled pineapple, bacon, tomato sauce, bbq sauce",
-              price: 23
+              price: 23,
+              image: "/images/hawaiian-pizza.jpg"
             },
             {
               name: "MARGHERITA",
               description: "tomato sauce, basil oil, cheddar, fresh mozzarella",
               price: 23,
-              image: "/images/margherita-pizza.JPG"
+              image: "/images/margherita-pizza.jpg"
             },
             {
               name: "AL FUNGHI",
               description:
                 "assorted mushrooms, caramelised onion, mozzarella, cheddar, truffle parmesan, arugula, white wine cream sauce",
               price: 23,
-              image: "/images/al-funghi-pizza.JPG"
+              image: "/images/al-funghi-pizza.jpg"
             },
             {
               name: "HALF & HALF PIZZA",
               description: "any 2 of the above",
               price: 25,
-              image: "/images/half-n-half-pizza.JPG"
+              image: "/images/half-n-half-pizza.jpg"
             }
           ],
           Desserts: [
@@ -613,7 +632,8 @@ class App extends Component {
               name: "TCS WAFFLE STACK",
               description:
                 "freshly pressed waffle, banana, strawberry, nutella, maple syrup, chantilly cream, triple dark chocolate gelato",
-              price: 14
+              price: 14,
+              image: "/images/tcs-waffle-stack.jpg"
             },
             {
               name: "ICE CREAM",
@@ -625,35 +645,36 @@ class App extends Component {
             {
               name: "DAILY CAKES",
               description: "available at our cake counter",
-              price: 10
+              price: 10,
+              image: "/images/cakes.jpg"
             }
           ],
           Kids: [
             {
               name: "TATER TOTS AND NUGGETS",
               price: 12,
-              image: "/images/tator-tots.JPG"
+              image: "/images/tator-tots-and-nuggets.jpg"
             },
             {
               name: "JUNIOR FISH AND CHIPS",
               description:
                 "fish fingers, straight-cut fries, tartar sauce, lemon cheek",
               price: 14,
-              image: "/images/kids-fish-n-chips.JPG"
+              image: "/images/junior-fish-and-chips.jpg"
             },
             {
               name: "SAUSAGE AND SPAGHETTI",
               description:
                 "chicken cheese sausage, sunny-side up, tomato sauce, parmesan shavings",
               price: 15,
-              image: "/images/kids-spaghetti.JPG"
+              image: "/images/sausage-and-spaghetti.jpg"
             },
             {
               name: "CHEESE BURGER",
               description:
                 "homemade wagyu beef patty (120g), melted cheese, tomato, romaine lettuce, ketchup, straight-cut fries",
               price: 16,
-              image: "/images/kids-cheeseburger.JPG"
+              image: "/images/cheese-burger.jpg"
             }
           ]
         }
