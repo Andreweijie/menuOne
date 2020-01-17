@@ -7,36 +7,28 @@ class Events extends Component {
   state = {
     items: [
       {
-        name: "Orange Butternut Soup",
-        price: 14,
-        description: "orange infused butternut, cinnamon, french baguette"
-      },
-      {
-        name: "X'mas Fish Pie",
-        price: 23,
+        name: "Properity Yu Sheng",
+        price: 68,
         description:
-          "haddock, clams, sweet leeks, prosecco sauce, mash potato, cheddar cheese"
+          "baby abalone, salmon sashimi, mesclun salad, cucumber ribbon, cherry tomato, carrot, cabbage, asparagus, fish skin, crackers, yuzu plum dressing"
       },
       {
-        name: "Seafood Rice",
-        price: "* 78",
+        name: "Lamb Ribs",
+        price: 38,
         description:
-          "shellfish, white fish, saffron, tomate, capsicum, prawn stock, white wine, long grain rice, parsley",
-        description2: "for 3-4 persons"
+          "slow cooked crispy lamb ribs, asian spices, mixed peppers, mint yogurt dip"
       },
       {
-        name: "Festive Meat Platter",
+        name: "Mala seafood Pot",
+        price: "* 68",
+        description:
+          "baby abalone, prawns, scallops, mussels, braised shiitake mushroom, wood fungus, rice vermicelli"
+      },
+      {
+        name: "CNY Meat Platter",
         price: "* 128",
         description:
-          "charred short ribs, veal sausages, maple glazed pork ribs, kimchi, lettuce, roasted potato, sour cream",
-        description2: "for 3-4 persons"
-      },
-      {
-        name: "Eat, Drink and Be Merry",
-        price: 295,
-        description:
-          "Seafood Rice + Festive Meat Platter + Perrier-Jouët Grand Brut",
-        description2: "for 4-6 persons"
+          "charrgrilled short ribs, apple galzed cider baby back ribs, mentaiko mac & cheese, balsamic glazed arugula, sweet potato fries"
       }
     ]
   };
@@ -49,11 +41,10 @@ class Events extends Component {
           id="back-home"
           onClick={this.props.history.goBack}
         >
-          &lt; Christmas Special
+          &lt; CNY Special
         </h3>
         <h4 style={{ fontFamily: "Corona", fontSize: 14 }}>Available</h4>
         <hr />
-        <img src={require("../images/christmas.jpg")} />
         <List component="nav" aria-labelledby="nested-list-subheader">
           <hr />
           {this.state.items.map(a => {
@@ -62,12 +53,12 @@ class Events extends Component {
                 name={a.name}
                 price={a.price}
                 description={a.description}
-                description2={a.description2}
               />
             );
           })}
         </List>
         <h4>*Top up $99 for a Perrier-Jouët Grand Brut</h4>
+        <h4>*Top up $109 for a Perrier-Jouët Blason Rosé</h4>
       </div>
     );
   }

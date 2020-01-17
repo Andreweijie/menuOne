@@ -54,7 +54,7 @@ export default class Menus extends Component {
           </ListItem>
           <hr id="menu-divider" />
           <ListItem button>
-            <Link to="/christmas">CHRISTMAS SPECIAL </Link>
+            <Link to="/christmas">CNY SPECIAL </Link>
             <span className="arrows" style={{ float: "right", fontSize: 30 }}>
               &gt;
             </span>
