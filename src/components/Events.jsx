@@ -43,8 +43,8 @@ class Events extends Component {
         >
           &lt; CNY Special
         </h3>
-        <h4 style={{ fontFamily: "Corona", fontSize: 14 }}>Available</h4>
-        <hr />
+        <img style={{ marginTop: 12 }} src="/images/banner.jpg"></img>
+
         <List component="nav" aria-labelledby="nested-list-subheader">
           <hr />
           {this.state.items.map(a => {
