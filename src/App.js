@@ -416,7 +416,7 @@ class App extends Component {
               description2:
                 "choice of eggs: sunny-side up | runny | scrambled | poached",
               price: 24,
-              image: "/images/settlement-big-breakfast.jpg"
+              image: "/images/the-settlement-big-breakfast.jpg"
             },
             {
               name: "VEGGIE WONDERLAND",
@@ -429,7 +429,8 @@ class App extends Component {
               name: "TCS CRAB & EGGS",
               description:
                 "norwegian smoked salmon, crab meat, poached eggs, avocado, ikura, dill, yuzu hollandaise, micro cress, croissant",
-              price: 25
+              price: 25,
+              image: "/images/tcs-crab-and-eggs.jpg"
             },
             {
               name: "PULLED PORK BENEDICT",
@@ -457,7 +458,7 @@ class App extends Component {
               description:
                 "angus minute steak (180g), sunny-side up eggs, asparagus, truffle fries, ketchup jus",
               price: 34,
-              image: "/images/breakfast-steak-eggs.jpg"
+              image: "/images/breakfast-steak-&-eggs.jpg"
             },
             {
               name: "BRUNCH WAGYU CHEESE BURGER",
@@ -492,7 +493,7 @@ class App extends Component {
               description:
                 "assorted mushrooms, parmesan cream sauce, white wine, arugula, truffle oil, parmesan shavings",
               price: 24,
-              image: "/images/truffle-mushroom-linguine.JPG"
+              image: "/images/truffle-mushroom-linguine.jpg"
             },
             {
               name: "TCS CRAYFISH & PRAWN LAKSA",
@@ -627,7 +628,8 @@ class App extends Component {
               name: "MAPLE PANCAKE",
               description:
                 "french vanilla gelato, nut crumble, strawberry, banana, fresh cream, maple syrup",
-              price: 14
+              price: 14,
+              image: "/images/maple-pancake.jpg"
             },
             {
               name: "TCS WAFFLE STACK",
@@ -641,7 +643,8 @@ class App extends Component {
               description: "served in a wafer bowl",
               description2:
                 "french vanilla | triple dark chocolate | D24 durian | peanut butter & jelly | green tea | korean yuzu sorbet",
-              price: 7
+              price: 7,
+              image: "/images/ice-cream-scoop.jpg"
             },
             {
               name: "DAILY CAKES",
