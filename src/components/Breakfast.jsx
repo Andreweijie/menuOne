@@ -46,7 +46,7 @@ export default class Breakfast extends Component {
           &lt; Breakfast
         </h3>
         <h4 className="breakkie">Available on weekends and PH from</h4>
-        <h4 className="breakkie">8:30am to 10:30am</h4>
+        <h4 className="breakkie">8:30am to 10:00am</h4>
         <hr />
         {this.state.Breakfast.map(e => {
           return (

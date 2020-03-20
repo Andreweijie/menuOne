@@ -12,7 +12,7 @@ function HighTea(props) {
         &lt; High Tea
       </h3>
       <h4 style={{ fontFamily: "Corona", fontSize: 14 }}>
-        Available daily from 3:30pm - 6:00pm
+        Available daily from 3:30pm - 5:30pm
       </h4>
       <hr />
       <img src={require("../images/high-tea.jpg")} />

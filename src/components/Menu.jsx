@@ -24,11 +24,11 @@ class Menu extends Component {
     let availDate;
     let secondDate;
     if (this.props.match.params.category == "daily-issue") {
-      availDate = "Available daily except on";
-      secondDate = "weekends before 5:00pm";
+      availDate = "Available daily except between";
+      secondDate = "3:30pm to 5:30pm and before 5:30pm on weekends";
     } else {
       availDate = "Available on weekends from";
-      secondDate = "10:30am - 3:30pm";
+      secondDate = "10:00am - 3:30pm";
     }
     return (
       <div>
