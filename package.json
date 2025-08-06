@@ -12,7 +12,7 @@
     "react-dom": "^16.12.0",
     "react-lazyload": "^2.6.5",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.0.1",
+    "react-scripts": "5.0.1",
     "react-swipe-events": "^1.0.3",
     "react-visibility-sensor": "^5.1.1"
   },
